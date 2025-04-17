@@ -1,0 +1,41 @@
+/* Header.css */
+
+/* General Header Styling */
+.header {
+  background-color: #333;
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+}
+
+/* Navbar styling */
+.navbar {
+  display: inline-block;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for each nav link */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: color 0.3s;
+}
+
+/* Hover effect on links */
+.nav-link:hover {
+  color: #f39c12;
+  text-decoration: underline;
+}
+
+/* Separator styling */
+.separator {
+  color: white;
+  padding: 0 5px;
+}
+
+/* Styling for active links */
+.nav-link.active {
+  color: #f39c12; /* Active link color */
+}
